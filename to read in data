@@ -1,0 +1,5 @@
+if __name__ == '__main__':
+    with open('advent_of_code_2022_1_sample_input.txt') a f:
+        depths = [int(line) for line in f]
+        print(len(depths))
+        print(depths)
